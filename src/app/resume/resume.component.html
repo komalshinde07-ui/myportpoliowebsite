@@ -1,0 +1,161 @@
+<div class="container text-center">
+
+    <button (click)="Downloadfile()" class="btn btn-primary mb-5 shadow border">Download Pdf Resume</button>
+<div class="pb-2">
+
+
+    <accordion [isAnimated]="true" class="shadow">
+
+        <accordion-group [(isOpen)]="isWorkExperianceOpen" >
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;"></div>
+                <div class="btn-link">Work Experiance</div>
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isWorkExperianceOpen" style="color: white;">></div>
+                    <div *ngIf="isWorkExperianceOpen" style="color: white;">v</div>
+                </div>
+                
+            </button>
+            <div style="text-align: left;">
+                <h4 class="mb-0">Software Developer(Angular) </h4>
+                <h5 class="text-primary">Prakhar Software Solutions Pvt Ltd. </h5>
+                <ul>
+                    <li> <b>Client:</b> -Armament Research and Development Establishment (ARDE)</li>
+                    <li> <b>Project Name:</b> E Approval for IMMS (Integrated Material Management System)</li>
+                    <li> <b>Responsibilities:</b></li>
+                    <li>
+                        Deployment and maintain codes.</li>
+                    <li>Analyze user requirements and convert requirements to design documents.</li>
+                    <li>Develop and implement new software programs using Angular.</li>
+                    <li>Test, maintain and recommend software improvements to ensure strong functionality</li>
+                    <li>
+                        Built client-side interface for projects using Angular Js,Angular 12,Java Script, CSS and HTML.
+                    </li>
+                </ul>
+            </div>
+            <div style="text-align: left;">
+                <h4 class="mb-0">Software Developer(Angular) </h4>
+                <h5 class="text-primary">Redwing Infotech Pvt Ltd. </h5>
+                <ul>
+
+                    <li> <b>Project Name:</b> iDO Management System.</li>
+                    <li> <b>Responsibilities:</b></li>
+                    <li>
+                        Creating a web based application using MVC architecture in Java adding web pages using Angular
+                        Js, Angular 12, HTML , JSP.</li>
+                    <li>Perform CRUD operation on this application. </li>
+                    <li>Develop and implement new software programs using Angular.</li>
+                    <li>Test, maintain and recommend software improvements to ensure strong functionality</li>
+                    <li>
+                        Adding permission in it.</li>
+                </ul>
+            </div>
+            <div style="text-align: left;">
+                <h4 class="mb-0">RPA Developer, </h4>
+                <h5 class="text-primary">Tata Technologies Pvt Ltd. </h5>
+                <ul>
+                    <li> <b>Client:</b> Plex Inc.</li>
+                    <li> <b>Project Name:</b> Distribution of Plex System.</li>
+                    <li> <b>Tool:</b> Automation Anywhere</li>
+                    <li> <b>Responsibilities:</b></li>
+                    <li>
+                        Deployment and maintain codes.</li>
+
+                    <li>Analysis of requirement and test case preparation.</li>
+                    <li>Gather knowledge about tool handling bot using AA query.
+                        Testing and Defect Management.</li>
+                    <li>Helping in peers and resolving there query.
+                        Suggesting Improvement.</li>
+
+                    <li>Test, maintain and recommend software improvements to ensure strong functionality</li>
+                    <li>
+                        Built client-side interface for projects using AA query.</li>
+                </ul>
+            </div>
+        </accordion-group>
+        <accordion-group [(isOpen)]="isEducationOpen">
+            <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                <div style="visibility: hidden;"></div>
+                <div class="btn-link">Education</div>
+                <div style="width: 10.95px;">
+                    <div *ngIf="!isEducationOpen" style="color: white;">></div>
+                    <div *ngIf="isEducationOpen" style="color: white;">v</div>
+                </div>
+                
+            </button>
+                <div style="text-align: left;">
+                    <h4 class="mb-0"> Bachelor of Engineering in Computer Science</h4>
+                    <h5 class="text-primary">Savitribai Phule Pune Univercity </h5>
+                    <ul>
+                        <li>Graduated from JSPM RSCOE Tathwade , Pune in may 2018</li>
+                        <li> Graduated with a 78 %</li>
+                    </ul>
+                </div>
+
+
+
+            </accordion-group>
+            <accordion-group  [(isOpen)]="isCertificateOpen">
+
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;"></div>
+                    <div class="btn-link">Certificate</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isCertificateOpen" style="color: white;">></div>
+                        <div *ngIf="isCertificateOpen" style="color: white;">v</div>
+                    </div>
+                    
+                </button>
+                <div style="text-align: left;">
+                    <h4 class="mb-0"> RPA(Automation anywhere)</h4>
+
+                    <ul>
+                        <li>Valid from Apr '19. Does not expire.</li>
+
+                    </ul>
+                </div>
+            </accordion-group>
+            <accordion-group [(isOpen)]="isSkillOpen">
+                <button class="btn btn-block justify-content-between d-flex w-100" accordion-heading>
+                    <div style="visibility: hidden;"></div>
+                    <div class="btn-link">Skill</div>
+                    <div style="width: 10.95px;">
+                        <div *ngIf="!isSkillOpen" style="color: white;">></div>
+                        <div *ngIf="isSkillOpen" style="color: white;">v</div>
+                    </div>
+                    
+                </button>
+
+                <div class="row" style="text-align: left;">
+                  
+                    <div class="col">
+                        <h3>Programming languages:</h3>
+                        <ul>
+                            <li>TypeScript</li>
+                            <li>Java</li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <h3>Framework:</h3>
+                        <ul>
+                            <li>Angular</li>
+                            <li>Node.js</li>
+                        </ul>
+
+                    </div>
+                    <div class="col">
+                        <h3>Other Skills:</h3>
+                        <ul>
+                            <li>source control via Git </li>
+                            <li>MVC architecture</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </accordion-group>
+    </accordion>
+</div>
+  
+</div>
