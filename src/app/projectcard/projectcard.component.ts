@@ -19,7 +19,6 @@ export class ProjectcardComponent implements OnInit {
   
 constructor( public dialog: MatDialog ){
 
-
 }
 
   ngOnInit(): void {
