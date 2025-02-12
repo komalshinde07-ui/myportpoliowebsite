@@ -26,4 +26,5 @@ export class ResumeComponent {
     link.remove();
   }
   
+  
 }

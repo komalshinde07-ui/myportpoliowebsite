@@ -1,0 +1,46 @@
+.container {
+    height: 100%; 
+        /* display: flex;           
+        justify-content: space-between;  
+           */
+           padding: 2rem 1rem;            
+        background-color: rgb(224, 206, 227);
+        
+      }
+      .jumbotron{
+        padding: 2rem 1rem;
+        /* height: 100vh;
+        width: 100vw; */
+        /* background-color: #e9ecef; */
+    }
+
+      .info-paragraph {
+        /* background-color: #ffffff;  */
+        width: 40vw;
+        padding: 15px;
+         height: 100%; 
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        color: #0d0e0e;
+        font-size: 25px;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .a {
+        text-align: center; /* Aligns the content in the center */
+        width: 40%; /* Optional, sets the width of the container */
+        margin: 0 auto; /* Centers the container horizontally */
+    }
+    .logo-container {
+        display: flex; /* This aligns the images side by side */
+        justify-content: center; /* Centers the images horizontally */
+        align-items: center; /* Aligns images vertically */
+        gap: 20px; /* Adds space between the images */
+        background-color: #ad719d;
+    }
+    .logo-container img {
+        width: 100px; /* Adjusts the size of the logos */
+        height: auto; /* Keeps the aspect ratio intact */
+    }

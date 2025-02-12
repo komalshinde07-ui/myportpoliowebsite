@@ -16,6 +16,7 @@ import { ProjectModalViewComponent } from './project-modal-view/project-modal-vi
 import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { DialogAppComponent } from './dialog-app/dialog-app.component';
 import { MaterialDialogComponent } from './material-dialog/material-dialog.component';
+import { HighchartsChartModule } from 'highcharts-angular';
 
 @NgModule({
 
@@ -39,7 +40,8 @@ import { MaterialDialogComponent } from './material-dialog/material-dialog.compo
     AppRoutingModule,
     BrowserAnimationsModule,
     AccordionModule,
-    
+   
+    HighchartsChartModule 
 
 
   ],

@@ -11,20 +11,37 @@ import { DialogAppComponent } from '../dialog-app/dialog-app.component';
   templateUrl: './projectcard.component.html',
   styleUrl: './projectcard.component.css'
 })
+
+
+
+
+
 export class ProjectcardComponent implements OnInit {
 
+
   @Input() project= {} as project;
+  skills = [
+    { name: 'Angular', checked: true },
+    { name: 'JavaScript', checked: false },
+    { name: 'HTML', checked: false },
+    { name: 'CSS', checked: false },
+    { name: 'Node.js', checked: false },
+  ];
 
-
-  
 constructor( public dialog: MatDialog ){
 
 }
-
   ngOnInit(): void {
-   
-  
+    throw new Error('Method not implemented.');
   }
+
+checkedSkills() {
+  return this.skills.filter(skill => skill.checked);
+}
+
+  
+
+ 
   openProjectModal(){
 
     
