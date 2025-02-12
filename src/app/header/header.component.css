@@ -41,7 +41,7 @@ width: 100%;
     align-items: center;      /* Vertically center the items */
     padding: 20px;            /* Optional padding around the container */
 
-    background-image: url('/assets/cover.jpg'); /* Background image */
+    /* background-image: url('/assets/cover.jpg');  */
   }
 
 
